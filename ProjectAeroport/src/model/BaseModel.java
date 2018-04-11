@@ -11,6 +11,7 @@ public abstract class BaseModel {
         this.id = id;
         this.nomTable = nomTable;
     }
+    public BaseModel(){}
 
     public String getId() {
         return id;
