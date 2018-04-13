@@ -31,7 +31,7 @@ public class Connexion {
                     throw new Exception("Erreur de user et mdp: getConnexion");
                 }
                 if(database.equals("")){
-                    urlDB = "jdbc:sqlserver://localhost:1433;databaseName=santePredict;";
+                    urlDB = "jdbc:sqlserver://localhost:1433;databaseName=aeroport;";
                 } 
 		try{
 			Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");

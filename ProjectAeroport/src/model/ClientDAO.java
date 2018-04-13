@@ -48,8 +48,7 @@ public class ClientDAO {
 
 		tabMed = new Client[listMed.size()];
 		listMed.copyInto(tabMed);
-		rs.close();
-		stmt.close();
+		
 		}catch(Exception e){
 			throw e;
 		}
